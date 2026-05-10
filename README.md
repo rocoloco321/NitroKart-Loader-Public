@@ -4,9 +4,9 @@ This is a partial source code release for Nitro Kart Loader, a modding framework
 
 # Features
 
-## Custom Track Information file
+## Custom Track Information file (course_info.nkldr)
 
-Allows to load course attributes that usually are hardcoded or requires editing the arm9
+Makes it so that course attributes that are normally hardcoded or baked into the ARM9 binary are instead loaded from a binary blob inside of the course archive.
 * Local Map coords
 * Global Map coords
 * Sequence ID
@@ -19,10 +19,30 @@ Additionally, the information file allows you to use features from the vanilla g
 * Partial fog for both the course model and skybox model (As seen on Luigi's Mansion and Rainbow Road)
 
 ## Other features
-* Fixed a bug that caused the Delfino Square slot to crash if a bridge map object instance is not present.
-* Disabled ROB palette swap
-* RCM Loader
-* Exception handler 
 
-# What has been released
+* Fixed an arbitrary condition that caused the Delfino Square slot to crash if a bridge map object instance is not present.
+* Disabled ROB palette swap
+* RCM Loader (made by @Garhoogin)
+* Exception handler
+
+#Planned features
+
+* Custom characters/karts loader/manager
+* Make shyguy selectable on the character select screen
+* Custom weather achieved by loading a .spa file from the course archive
+* Extended cannon types (Such as fast cannons, or warp pipes that work more similarly to portals)
+* Add more attributes to info file format
+* Author credits on course intro / race intro on VS
+
+
+The following set of features is not confirmed, their inclussion is not warranted 
+* Custom cup manager
+* MyStuff folder 
+* Sectioned tracks (Like Mount Wario)
+* 200cc
+
+
+# What has been released so far
+
+* Custom Track information file (course_info.nkldr)
 
