@@ -45,5 +45,5 @@ The following set of features is not confirmed, their inclussion is not warrante
 
 * Custom Track information file (course_info.nkldr)
 
-### Note
+# Note
 NitroKart Loader restricts online play to friend lobbies, this is to prevent interference with the vanilla game
