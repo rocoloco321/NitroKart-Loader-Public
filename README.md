@@ -25,7 +25,7 @@ Additionally, the information file allows you to use features from the vanilla g
 * RCM Loader (made by @Garhoogin)
 * Exception handler
 
-#Planned features
+# Planned features
 
 * Custom characters/karts loader/manager
 * Make shyguy selectable on the character select screen
@@ -41,8 +41,9 @@ The following set of features is not confirmed, their inclussion is not warrante
 * Sectioned tracks (Like Mount Wario)
 * 200cc
 
-
 # What has been released so far
 
 * Custom Track information file (course_info.nkldr)
 
+### Note
+NitroKart Loader restricts online play to friend lobbies, this is to prevent interference with the vanilla game
